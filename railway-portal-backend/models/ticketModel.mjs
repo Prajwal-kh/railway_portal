@@ -1,7 +1,7 @@
 import { Schema, connect, model } from "mongoose";
 
 let url =
-  "mongodb+srv://prajwalkharode18:UxUsAnBykl5O2SWG@railway-inquiry-cluster.p56onlr.mongodb.net/?retryWrites=true&w=majority&appName=railway-inquiry-cluster";
+  "mongodb+srv://prajwalkharode18:<password>@railway-inquiry-cluster.p56onlr.mongodb.net/?retryWrites=true&w=majority&appName=railway-inquiry-cluster";
 connect(url)
   .then(() => console.log("Connected to MongoDB Atlas"))
   .catch((err) => console.error("Error connecting to MongoDB Atlas:", err));

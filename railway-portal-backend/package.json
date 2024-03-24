@@ -1,0 +1,27 @@
+{
+  "name": "railway-portal-backend",
+  "version": "1.0.0",
+  "description": "backend server for railway inquiry portal",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prajwal-kh/railway_inquiry_portal.git"
+  },
+  "author": "Prajwal Kharode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prajwal-kh/railway_inquiry_portal/issues"
+  },
+  "homepage": "https://github.com/Prajwal-kh/railway_inquiry_portal#readme",
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "mongoose": "^8.2.3"
+  }
+}
